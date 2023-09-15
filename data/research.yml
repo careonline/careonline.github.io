@@ -1,0 +1,70 @@
+tools:
+# research category
+- title: Managing Data in ML
+  tool:
+  - name: Data Profiling for Fair Machine Learning
+    image: "/images/research/p_profile.svg"
+    link: https://github.com/DataProfilor/ConFair
+    desp: "Data profiling is a critical data management task that 
+          provides an informative view of data in the form of constraints, patterns, 
+          and trends within the data. Although data profiling is commonly used to understand and cleanse data, 
+          few have explored its potential to facilitate fair learning."
+
+
+  - name: Tracking data problems in machine learning
+    image: "/images/research/p_track.svg"
+    link: https://hilda.io/2020/proceedings/HILDA2020_paper9.pdf
+    desp: "Detecting and mitigating bias in ML pipelines is complex, 
+    and data scientists have a strong need for system-level support for such tasks. 
+    Humans should be empowered to verify and control bias in these pipelines before 
+    decision-makers use such predictive pipelines to determine outcomes in critical domains."
+
+
+- title: Addressing Utility in AI
+  tool:
+  # project loop in project category
+  - name: Generate Fair and Private Data
+    image: "/images/research/p_generate.svg"
+    link: #
+    desp: "Synthetic data is a valuable tool for machine learning researchers and data practitioners, providing a cost-effective, flexible, fair, and privacy-preserving alternative to real-world data. 
+    There are three goals for generating synthetic tabular data: (1) the data should be statistically similar to the distribution of a real data set, (2) the data points should ideally be indistinguishable from real data points, 
+    and (3) the data points should be sufficiently different from each other. 
+    Achieving all three of these properties can be challenging."
+  # project loop in project category
+  - name: Algorithmic Recourse for Groups
+    image: "/images/research/p_recourse.svg"
+    link: #
+    desp: "Algorithmic recourse provides explanations to individuals, 
+    helps them understand why a particular decision was made, 
+    and recommends actionable feedback on how to change the results of machine learning models. 
+    However, it is difficult to provide recommendations to groups, 
+    where changes now would affect the models in unexpected ways."
+  # project loop in project category
+  - name: Interpretable Machine Learning with Data-focused Explanations
+    image: "/images/research/p_exp.svg"
+    link: #
+    desp: "As ML models are increasingly integrated into data science pipelines, we believe that 
+    data-focused and model-focused explanations are complementary for understanding the behavior 
+    of ML models. Data-focused explanations offer three advantages: (1) they support complex queries 
+    on model results, (2) they are easy to interpret for non-experts, and (3) they capture the assumptions 
+    about data and models in a declarative way."
+
+
+- title: Equity in Education
+  tool:
+  - name: EthiCSEdu - an interactive learning system for CS students
+    image: "/images/research/p_edu.svg"
+    link: #
+    desp: "EthiCSEdu serves as a dynamic learning environment that complements ethics education in computer science. 
+    It aims to engage students in simulations that help them consider the potential ethical consequences of the computer 
+    systems they design and work with. It aims to equip students with the critical thinking skills needed to address the 
+    increasingly complex ethical issues they will encounter in their future careers."
+
+  - name: Responsible AI tutorials
+    image: "/images/research/p_tutorial.svg"
+    link: #
+    desp: "Irresponsible use of AI has the potential to cause harm on an unprecedented scale. 
+    As we develop and deploy AI systems, we are compelled to think about the impact of these 
+    systems on individuals, populations, and society at large. Responsible AI is a tutorial 
+    that addresses issues of ethics, legal compliance, data quality, algorithmic fairness and 
+    diversity, data and algorithm transparency, privacy, and data protection."

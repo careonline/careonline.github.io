@@ -1,0 +1,181 @@
+
+############################ Default configuration #########################
+baseURL = 'https://careonline.github.io'
+languageCode = 'en-us'
+title = 'CARE Lab | UTSA'
+
+# post pagination
+paginate = "5"
+# post excerpt
+summaryLength = "5"
+
+
+[outputs]
+home = ["HTML", "AMP", "RSS", "JSON"]
+
+########################## Plugings ######################################
+
+# css plugins
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+link = "plugins/themify-icons/themify-icons.css"
+
+# js plugins
+[[params.plugins.js]]
+link = "plugins/jQuery/jquery.min.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+link = "plugins/search/fuse.min.js"
+[[params.plugins.js]]
+link = "plugins/search/mark.js"
+[[params.plugins.js]]
+link = "plugins/search/search.js"
+
+
+########################### Navigation ###################################
+
+# main menu
+
+[[menu.main]]
+URL = "research/"
+name = "research"
+weight = 1
+
+
+# footer menu
+[[menu.footer]]
+URL = "https://www.google.com/maps/place/UTSA+School+of+Data+Science/@29.4237929,-98.4985696,17z/data=!3m1!4b1!4m6!3m5!1s0x865c5959d6ecd219:0x32bcb346e162c044!8m2!3d29.4237929!4d-98.4959947!16s%2Fg%2F11k4p0b572?entry=ttu"
+name = "Visit us at San Pedro I 262, 506 Dolorosa St, San Antonio, TX 78204"
+weight = 1
+
+
+
+######################### Default Parameters ###########################
+[params]
+# home
+home = "Home"
+# logo
+logo = "images/long_logo.svg"
+# meta data
+author = "Ke Yang"
+description = "This is the website of CARE lab at UTSA."
+
+# copyright
+copyright = "&copy; 2023. All Rights Reserved"
+
+# preloader
+[params.preloader]
+enable = true
+preloader = "" # use png, jpg, svg or gif format
+
+
+# cookies
+[params.cookies]
+enable = true
+expire_days = 2
+
+####################### banner #######################################
+[params.banner]
+bgImage = "images/banner/web_banner.svg"
+title = "We aim at integrating responsibility into AI systems."
+image = "images/banner/web_focus.svg"
+
+
+
+######################## focus fair ###############################
+[params.focusfair]
+enable = true
+image = "images/web_fair_s.svg"
+title = "Fairness"
+description = "AI systems exhibit discrimination similar to humans. Algorithmic fairness involves creating models that treat all individuals or groups equally and fairly."
+
+[params.focusfair.button]
+enable = true
+label = "Reading: the White House's Blueprint for an AI Bill of Rights"
+link = "https://www.whitehouse.gov/ostp/ai-bill-of-rights/algorithmic-discrimination-protections-2/"
+
+######################## focus explanation ###############################
+[params.focusxai]
+enable = true
+image = "images/web_xai_s.svg"
+title = "Explainable Artificial Intelligence (XAI)"
+description = "XAI aims to make AI systems transparent and understandable to humans, especially in critical domains. It achieves this goal by providing explanations for its predictions, enabling end-users to interpret and trust the results."
+
+[params.focusxai.button]
+enable = true
+label = "Reading: What is explainable AI? From IBM"
+link = "https://www.ibm.com/topics/explainable-ai"
+
+
+######################## focus transparency ###############################
+[params.focustrans]
+enable = true
+image = "images/web_trans_s.svg"
+title = "AI accountability"
+description = "AI accountability is a cornerstone of AI governance. It ensures that AI systems are transparent, explainable, and free of algorithmic bias. It also evaluates the data security and privacy of AI systems, as well as the involvement of a wide range of stakeholders in the development and deployment of AI systems."
+
+[params.focustrans.button]
+enable = true
+label = "Reading: comments on AI  accountability from Center for American Progress"
+link = "https://www.americanprogress.org/article/developing-accountability-mechanisms-for-ai-systems-is-critical-to-the-development-of-trustworthy-ai/"
+
+######################## focus safety ###############################
+[params.focussafe]
+enable = true
+image = "images/web_safe_s.svg"
+title = "Data Protection in AI"
+description = "Data protection is an essential component of responsible AI development and use. It ensures that personal data is collected, processed, and stored in compliance with relevant laws and regulations. It includes the implementation of appropriate safeguards to protect personal data from unauthorized access, corruption, or adversarial attacks."
+
+[params.focussafe.button]
+enable = true
+label = "Reading: What is GDPR, the EU’s new data protection law?"
+link = "https://gdpr.eu/what-is-gdpr/"
+
+######################## team ###############################
+[params.team]
+enable = true
+title = "Team"
+
+[params.team.director]
+image = "images/people/ke.png"
+name = "Ke Yang"
+link = "https://keyangutsa.github.io/"
+
+[params.team.student1]
+image = "images/people/sinmi.jpg"
+name = "Sinmi Akindele"
+link = "https://www.linkedin.com/in/mosinmiloluwa-sinmi-akindele-18459b137"
+
+[params.team.student2]
+image = "images/people/sohanur.jpg"
+name = "Sohanur Rahman"
+link = "https://www.linkedin.com/in/sohan083/"
+
+
+[params.team.student3]
+image = "images/people/asif.jpg"
+name = "Asif Ahmed"
+link = "#"
+
+######################## Ads ###############################
+[params.ad]
+enable = true
+image = "images/i_ad.svg"
+title = "This could be you!"
+description = "We are always looking for people who are passionate about advancing AI responsibility."
+
+[params.ad.button]
+enable = true
+label = "Contact US"
+link = "mailto:ke.yang@utsa.edu"
+
+############################## Social Site ##########################
+[[params.social]]
+icon = "ti-email"
+link = "mailto:ke.yang@utsa.edu"
+[[params.social]]
+icon = "ti-github" # themify icon pack https://themify.me/themify-icons
+link = "https://github.com/careonline"
+

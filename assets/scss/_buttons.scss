@@ -1,0 +1,146 @@
+/* Button style */
+.btn {
+  font-size: 16px;
+  font-family: $primary-font;
+  text-transform: capitalize;
+  padding: 12px 20px;
+  border-radius: 5px;
+  border: 1px solid;
+  position: relative;
+  z-index: 1;
+  transition: .2s ease;
+
+  &:hover,
+  &:active,
+  &:focus {
+    outline: 0;
+    box-shadow: none !important;
+  }
+}
+
+
+.my-btn-o {
+    background: $white;
+    color: #f15a22;
+    border-color: #f15a22;
+    
+    &:active,
+    &:hover,
+    &.focus,
+    &.active {
+    	background: #f15a22 !important;
+    	border-color: #f15a22 !important;
+    }
+
+}
+
+.my-btn-f {
+    background: $white;
+    color: #fcbf49;
+    border-color: #fcbf49;
+    
+    &:active,
+    &:hover,
+    &.focus,
+    &.active {
+    	background: #fcbf49 !important;
+    	border-color: #fcbf49 !important;
+    }
+
+}
+
+.my-btn-x {
+    background: $white;
+    color: #eae2b7;
+    border-color: #eae2b7;
+    
+    &:active,
+    &:hover,
+    &.focus,
+    &.active {
+    	background: #eae2b7 !important;
+    	border-color: #eae2b7 !important;
+    }
+
+}
+
+.my-btn-t {
+    background: $white;
+    color: #a8dadc;
+    border-color: #a8dadc;
+    
+    &:active,
+    &:hover,
+    &.focus,
+    &.active {
+    	background: #a8dadc !important;
+    	border-color: #a8dadc !important;
+    }
+
+}
+
+.my-btn-s {
+    background: $white;
+    color: #06d6a0;
+    border-color: #06d6a0;
+    
+    &:active,
+    &:hover,
+    &.focus,
+    &.active {
+    	background: #06d6a0 !important;
+    	border-color: #06d6a0 !important;
+    }
+
+}
+
+.btn-sm{
+  font-size: 15px;
+  padding: 6px 10px;
+}
+
+.btn-primary {
+  background: $primary-color;
+  color: $white;
+  border-color: $primary-color;
+
+  &:active,
+  &:hover,
+  &.focus,
+  &.active {
+    background: $primary-color !important;
+    border-color: $primary-color !important;
+  }
+}
+
+.btn-outline-primary {
+  background: transparent;
+  color: $primary-color;
+  border-color: $primary-color;
+
+  &:active,
+  &:hover,
+  &.focus,
+  &.active {
+    background: $primary-color !important;
+    border-color: $primary-color !important;
+    color: $white;
+  }
+}
+
+
+.btn-transparent {
+  background: transparent;
+  color: $primary-color;
+  border: 0;
+  border-bottom: 1px solid $primary-color;
+  border-radius: 0;
+  padding: 2px;
+
+  &:active,
+  &:hover,
+  &.focus,
+  &.active {
+    background: transparent;
+  }
+}

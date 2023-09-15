@@ -165,11 +165,8 @@ enable = true
 image = "images/i_ad.svg"
 title = "This could be you!"
 description = "We are always looking for people who are passionate about advancing AI responsibility."
-
-[params.ad.button]
-enable = true
-label = "Contact us"
-link = "mailto:ke.yang@utsa.edu"
+contactlink = "mailto:ke.yang@utsa.edu"
+formlink = "https://forms.gle/S7faZMDaysXiu9kJA"
 
 ############################## Social Site ##########################
 [[params.social]]

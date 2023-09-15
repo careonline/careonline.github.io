@@ -178,10 +178,9 @@
           <div class="col-md-8 text-center text-md-left">
             <h3 class="mt-0">{{ .Site.Params.ad.title | markdownify }}</h3>
             <p>{{ .Site.Params.ad.description | markdownify }}</p>
-            {{ if .Site.Params.ad.button.enable }}
-            <a href="{{ .Site.Params.ad.button.link | absURL }}"
-              class="btn btn-primary">{{ .Site.Params.ad.button.label }}</a>
-            {{ end }}
+            <p> <a href="{{ .Site.Params.ad.contactlink | absURL }}"> Contact us</a> 
+              OR fill out <a href="{{ .Site.Params.ad.formlink | absURL }}">this form</a> to tell us more about you!
+            </p>
           </div>
         </div>
       </div>

@@ -168,7 +168,7 @@ description = "We are always looking for people who are passionate about advanci
 
 [params.ad.button]
 enable = true
-label = "Contact US"
+label = "Contact us"
 link = "mailto:ke.yang@utsa.edu"
 
 ############################## Social Site ##########################

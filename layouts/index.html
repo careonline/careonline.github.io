@@ -16,112 +16,34 @@
 </section>
 <!-- /banner -->
 
-<!-- focus fair -->
-{{ if .Site.Params.focusfair.enable }}
-<section class="section pt-0">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12 mx-auto">
-        <div class="row shadow bg-white p-5">
-          <div class="col-md-4 text-center text-md-left mb-4 mb-lg-0">
-            <img src="{{ .Site.Params.focusfair.image | relURL }}" class="mr-4" alt="...">
-          </div>
-          <div class="col-md-8 text-center text-md-left">
-            <h3 class="mt-0">{{ .Site.Params.focusfair.title | markdownify }}</h3>
-            <p>{{ .Site.Params.focusfair.description | markdownify }}</p>
-            {{ if .Site.Params.focusfair.button.enable }}
-            <a href="{{ .Site.Params.focusfair.button.link | absURL }}"
-              class="btn my-btn-f">{{ .Site.Params.focusfair.button.label }}</a>
-            {{ end }}
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-{{ end }}
-<!-- /focus fair -->
-
-
-<!-- focus explanation -->
-{{ if .Site.Params.focusxai.enable }}
-<section class="section pt-0">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12 mx-auto">
-        <div class="row shadow bg-white p-5">
-          <div class="col-md-4 text-center text-md-left mb-4 mb-lg-0">
-            <img src="{{ .Site.Params.focusxai.image | relURL }}" class="mr-4" alt="...">
-          </div>
-          <div class="col-md-8 text-center text-md-left">
-            <h3 class="mt-0">{{ .Site.Params.focusxai.title | markdownify }}</h3>
-            <p>{{ .Site.Params.focusxai.description | markdownify }}</p>
-            {{ if .Site.Params.focusxai.button.enable }}
-            <a href="{{ .Site.Params.focusxai.button.link | absURL }}"
-              class="btn my-btn-x">{{ .Site.Params.focusxai.button.label }}</a>
-            {{ end }}
+<!-- focus area -->
+{{ if .Site.Params.focus.enable }}
+  {{ range $index, $elemen:= .Site.Data.focus.focus }}
+  <section class="section pt-0">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 mx-auto">
+          <div class="row shadow bg-white p-5">
+            <div class="col-md-4 text-center text-md-left mb-4 mb-lg-0">
+              <img src="{{ .image | relURL }}" class="mr-4" alt="...">
+            </div>
+            <div class="col-md-8 text-center text-md-left">
+              <h3 class="mt-0">{{ .title | markdownify }}</h3>
+              <p>{{ .desp | markdownify }}</p>
+             <a href="{{ .readlink | absURL }}"> <prole> {{ .readlabel }}</prole> </a>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
-{{ end }}
-<!-- /focus explanation -->
+  </section>
+   {{ end }}
+ {{ end }}
+<!-- /focus area -->
 
-<!-- focus transparency -->
-{{ if .Site.Params.focustrans.enable }}
-<section class="section pt-0">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12 mx-auto">
-        <div class="row shadow bg-white p-5">
-          <div class="col-md-4 text-center text-md-left mb-4 mb-lg-0">
-            <img src="{{ .Site.Params.focustrans.image | relURL }}" class="mr-4" alt="...">
-          </div>
-          <div class="col-md-8 text-center text-md-left">
-            <h3 class="mt-0">{{ .Site.Params.focustrans.title | markdownify }}</h3>
-            <p>{{ .Site.Params.focustrans.description | markdownify }}</p>
-            {{ if .Site.Params.focustrans.button.enable }}
-            <a href="{{ .Site.Params.focustrans.button.link | absURL }}"
-              class="btn my-btn-t">{{ .Site.Params.focustrans.button.label }}</a>
-            {{ end }}
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-{{ end }}
-<!-- /focus transparency -->
-
-<!-- focus safety -->
-{{ if .Site.Params.focussafe.enable }}
-<section class="section pt-0">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12 mx-auto">
-        <div class="row shadow bg-white p-5">
-          <div class="col-md-4 text-center text-md-left mb-4 mb-lg-0">
-            <img src="{{ .Site.Params.focussafe.image | relURL }}" class="mr-4" alt="...">
-          </div>
-          <div class="col-md-8 text-center text-md-left">
-            <h3 class="mt-0">{{ .Site.Params.focussafe.title | markdownify }}</h3>
-            <p>{{ .Site.Params.focussafe.description | markdownify }}</p>
-            {{ if .Site.Params.focussafe.button.enable }}
-            <a href="{{ .Site.Params.focussafe.button.link | absURL }}"
-              class="btn my-btn-s">{{ .Site.Params.focussafe.button.label }}</a>
-            {{ end }}
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-{{ end }}
-<!-- /focus safety -->
 
 <!-- team -->
+
 {{ if .Site.Params.team.enable }}
 <section class="section pt-0">
   <div class="container">
@@ -132,31 +54,26 @@
             <h3 class="mt-0">{{ .Site.Params.team.title | markdownify }}</h3>
           </div>
           
+          {{ range $index, $elemen:= .Site.Data.people.faculty }}
           <div class="col-md-3 text-center text-md-center mb-4 mb-lg-0">
-            <a href="{{ .Site.Params.team.director.link | absURL }}">
-              <img src="{{ .Site.Params.team.director.image | relURL }}" class="mr-4" width="170" height="170">
+            <a href="{{ .link | absURL }}">
+              <img src="{{ .image | relURL }}" class="mr-4" width="170" height="170">
             </a>
-            <h4 class="mt-0">{{ .Site.Params.team.director.name | markdownify }}</h4>
+            <h4 class="mt-0">{{ .name | markdownify }}</h4>
+            <prole class="mt-0">{{ .role | markdownify }}</prole>
           </div>
+          {{ end }}
+
+
+          {{ range $index, $elemen:= .Site.Data.people.student }}
           <div class="col-md-3 text-center text-md-center mb-4 mb-lg-0">
-            <a href="{{ .Site.Params.team.student1.link | absURL }}">
-              <img src="{{ .Site.Params.team.student1.image | relURL }}" class="mr-4" width="170" height="170">
+            <a href="{{ .link | absURL }}">
+              <img src="{{ .image | relURL }}" class="mr-4" width="170" height="170">
             </a>
-            <h4 class="mt-0">{{ .Site.Params.team.student1.name | markdownify }}</h4>
+            <h4 class="mt-0">{{ .name | markdownify }}</h4>
+            <prole class="mt-0">{{ .role | markdownify }}</prole>
           </div>
-          <div class="col-md-3 text-center text-md-center mb-4 mb-lg-0">
-            <a href="{{ .Site.Params.team.student2.link | absURL }}">
-              <img src="{{ .Site.Params.team.student2.image | relURL }}" class="mr-4" width="170" height="170">
-            </a>
-            <h4 class="mt-0">{{ .Site.Params.team.student2.name | markdownify }}</h4>
-          </div>
-          <div class="col-md-3 text-center text-md-center mb-4 mb-lg-0">
-            <a href="{{ .Site.Params.team.student3.link | absURL }}">
-              <img src="{{ .Site.Params.team.student3.image | relURL }}" class="mr-4" width="170" height="170">
-            </a>
-            <h4 class="mt-0">{{ .Site.Params.team.student3.name | markdownify }}</h4>
-          </div>
-          
+          {{ end }}
         </div>
       </div>
     </div>
@@ -178,9 +95,15 @@
           <div class="col-md-8 text-center text-md-left">
             <h3 class="mt-0">{{ .Site.Params.ad.title | markdownify }}</h3>
             <p>{{ .Site.Params.ad.description | markdownify }}</p>
-            <p> <a href="{{ .Site.Params.ad.contactlink | absURL }}"> Contact us</a> 
-              OR fill out <a href="{{ .Site.Params.ad.formlink | absURL }}">this form</a> to tell us more about you!
-            </p>
+            <ul>
+              <li>
+                <a href="{{ .Site.Params.ad.formlink | absURL }}"><prole>Complete this form</prole></a>
+              </li>
+              <li>
+                <a href="{{ .Site.Params.ad.contactlink | absURL }}"> <prole>Click to email us</prole> </a>
+              </li>
+            </ul>
+            
           </div>
         </div>
       </div>
@@ -188,6 +111,6 @@
   </div>
 </section>
 {{ end }}
-<!-- /focus explanation -->
+<!-- /ad -->
 
 {{ end }}

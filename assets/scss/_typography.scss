@@ -17,6 +17,13 @@ p, .paragraph {
   font-family: $primary-font;
 }
 
+prole, .paragraph {
+  font-weight: 400;
+  color: $text-color-new;
+  font-size: 19px;
+  line-height: 1.7;
+  font-family: $primary-font;
+}
 
 a {
   color: $primary-color;
@@ -60,3 +67,4 @@ h5, .h5{
 h6, .h6{
   font-size: 16px;
 }
+

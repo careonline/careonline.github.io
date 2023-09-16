@@ -1,0 +1,21 @@
+faculty:
+- name: Ke Yang
+  image: "/images/people/ke.png"
+  link: https://keyangutsa.github.io/
+  role: Lead Faculty
+
+student:
+- name: Sinmi Akindele
+  image: "images/people/sinmi.jpg"
+  link: "https://www.linkedin.com/in/mosinmiloluwa-sinmi-akindele-18459b137"
+  role: Graduate Fellow
+
+- name: Sohanur Rahman
+  image: "images/people/sohanur.jpg"
+  link: "https://www.linkedin.com/in/sohan083/"
+  role: Graduate Fellow
+
+- name: Asif Ahmed
+  image: "images/people/asif.jpg"
+  link: "#"
+  role: Graduate Fellow

@@ -1,0 +1,35 @@
+focus:
+- title: Fairness
+  image: "images/web_fair_s.svg"
+  desp: "AI systems exhibit discrimination similar to humans. 
+  Algorithmic fairness involves creating models that treat all 
+  individuals or groups equally and fairly."
+  readlabel: "Reading: the White House's Blueprint for an AI Bill of Rights"
+  readlink: "https://www.whitehouse.gov/ostp/ai-bill-of-rights/algorithmic-discrimination-protections-2/"
+  
+- title: "Explainable Artificial Intelligence (XAI)"
+  image: "images/web_xai_s.svg"
+  desp: "XAI aims to make AI systems transparent and understandable to humans, 
+  especially in critical domains. It achieves this goal by providing explanations 
+  for its predictions, enabling end-users to interpret and trust the results."
+  readlabel: "Reading: What is explainable AI? From IBM"
+  readlink: "https://www.ibm.com/topics/explainable-ai"
+
+- title: "AI accountability"
+  image: "images/web_trans_s.svg"
+  desp: "AI accountability is a cornerstone of AI governance. It ensures that 
+  AI systems are transparent, explainable, and free of algorithmic bias. It 
+  also evaluates the data security and privacy of AI systems, as well as the 
+  involvement of a wide range of stakeholders in the development and deployment 
+  of AI systems."
+  readlabel: "Reading: comments on AI  accountability from Center for American Progress"
+  readlink: "https://www.americanprogress.org/article/developing-accountability-mechanisms-for-ai-systems-is-critical-to-the-development-of-trustworthy-ai/"
+
+- title: "Data Protection in AI"
+  image: "images/web_safe_s.svg"
+  desp: "Data protection is an essential component of responsible AI development and use. 
+  It ensures that personal data is collected, processed, and stored in compliance with 
+  relevant laws and regulations. It includes the implementation of appropriate safeguards to 
+  protect personal data from unauthorized access, corruption, or adversarial attacks."
+  readlabel: "Reading: What is GDPR, the EU’s new data protection law?"
+  readlink: "https://gdpr.eu/what-is-gdpr/"

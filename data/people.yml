@@ -11,6 +11,13 @@ faculty:
   role: Faculty
   department: Biomedical Engineering
 
+- name: Hilal Pataci
+  image: "/images/people/hilal.jpeg"
+  link: https://business.utsa.edu/faculty/hilal-pataci/
+  role: Faculty
+  department: Information Systems and Cyber Security
+
+
 - name: Maryam Tabar 
   image: "/images/people/maryam.jpeg"
   link: https://sciences.utsa.edu/faculty/profiles/tabar-maryam.html

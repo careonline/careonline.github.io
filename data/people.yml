@@ -5,6 +5,12 @@ faculty:
   role: Founding Faculty
   department: Computer Science
 
+- name: Carolina Vivas-Valencia
+  image: "/images/people/carolina.jpeg"
+  link: https://heallaboratory.com/
+  role: Faculty
+  department: Biomedical Engineering
+
 - name: Maryam Tabar 
   image: "/images/people/maryam.jpeg"
   link: https://sciences.utsa.edu/faculty/profiles/tabar-maryam.html

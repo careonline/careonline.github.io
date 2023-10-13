@@ -21,17 +21,17 @@ student:
 - name: Sinmi Akindele
   image: "images/people/sinmi.jpg"
   link: "https://www.linkedin.com/in/mosinmiloluwa-sinmi-akindele-18459b137"
-  role: Graduate Fellow
+  role: Graduate Student Fellow
   department: Computer Science
 
 - name: Sohanur Rahman
   image: "images/people/sohanur.jpg"
   link: "https://www.linkedin.com/in/sohan083/"
-  role: Graduate Fellow
+  role: Graduate Student Fellow
   department: Computer Science
 
 - name: Asif Ahmed
   image: "images/people/asif.jpg"
   link: "#"
-  role: Graduate Fellow
+  role: Graduate Student Fellow
   department: Computer Science

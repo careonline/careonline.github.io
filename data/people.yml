@@ -2,20 +2,36 @@ faculty:
 - name: Ke Yang
   image: "/images/people/ke.png"
   link: https://keyangutsa.github.io/
-  role: Lead Faculty
+  role: Founder and Lead Faculty
+  department: Computer Science
+
+- name: Maryam Tabar 
+  image: "/images/people/maryam.jpeg"
+  link: https://sciences.utsa.edu/faculty/profiles/tabar-maryam.html
+  role: Faculty
+  department: Computer Science
+
+- name: Zijie Zhang
+  image: "/images/people/zijie.jpeg"
+  link: https://sciences.utsa.edu/faculty/profiles/zhang-zijie.html
+  role: Faculty
+  department: Computer Science
 
 student:
 - name: Sinmi Akindele
   image: "images/people/sinmi.jpg"
   link: "https://www.linkedin.com/in/mosinmiloluwa-sinmi-akindele-18459b137"
   role: Graduate Fellow
+  department: Computer Science
 
 - name: Sohanur Rahman
   image: "images/people/sohanur.jpg"
   link: "https://www.linkedin.com/in/sohan083/"
   role: Graduate Fellow
+  department: Computer Science
 
 - name: Asif Ahmed
   image: "images/people/asif.jpg"
   link: "#"
   role: Graduate Fellow
+  department: Computer Science

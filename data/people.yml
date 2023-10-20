@@ -17,12 +17,17 @@ faculty:
   role: Faculty
   department: Information Systems and Cyber Security
 
-
 - name: Maryam Tabar 
   image: "/images/people/maryam.jpeg"
   link: https://sciences.utsa.edu/faculty/profiles/tabar-maryam.html
   role: Faculty
   department: Computer Science
+
+- name: Dengdeng Yu
+  image: "/images/people/dengdeng.jpeg"
+  link: https://business.utsa.edu/faculty/dengdeng-yu/
+  role: Faculty
+  department: Management Science and Statistics
 
 - name: Zijie Zhang
   image: "/images/people/zijie.jpeg"

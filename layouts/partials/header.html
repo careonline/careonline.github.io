@@ -1,6 +1,15 @@
 {{ "<!-- navigation -->" | safeHTML }}
-<header class="fixed-top navigation">
+<header class="fixed-top navigation"> 
+  <!-- blue utsa header -->
+  <div class="bheader">
+     <a href="{{ .Site.Params.bheader.logourl }}"><img class="img-fluid illustration" width="250" src="{{ .Site.Params.bheader.image | relURL }}"></a>
+  </div>
+<!-- orange utsa header -->
+  <div class="oheader">
+  </div>
+    
   <div class="container">
+
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
       <a class="navbar-brand"href="{{ .Site.BaseURL }}"><img class="img-fluid" src="{{ .Site.Params.logo | relURL }}" alt="{{ .Site.Title }}"></a>

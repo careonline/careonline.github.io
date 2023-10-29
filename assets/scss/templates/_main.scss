@@ -3,6 +3,28 @@
   background-image: url(../images/backgrounds/pattern.png);
 } */
 
+/* bheader */
+.bheader {
+	
+  &.fixed-top{
+    position: sticky !important;
+  }
+  
+  background: $utsablue;
+  padding: 10px 0px 10px 10px;
+}
+
+/* oheader */
+.oheader {
+  
+  &.fixed-top{
+    position: sticky !important;
+  }
+  
+  background: $utsaoran;
+  padding: 1px 0px 3px 3px;
+}
+
 /* banner */
 .banner {
   padding: 220px 0 120px;
@@ -17,18 +39,57 @@
   .illustration {
     position: absolute;
     bottom: 0;
-    right: 30px;
+    right: 0;
+    
+    @include desktop-xxl {
+      max-width: 600px;
+      right: 85px;
+
+    }
+
     @include desktop-xl {
       max-width: 600px;
+      right: -155px;
     }
+
+    @include desktop-lg {
+      max-width: 500px;
+      right: -200px;
+    }
+
     @include desktop {
       display: none;
+   
     }
+
+    
   }
   .illustration-mobile{
-    display: none;
+    @include desktop-xxl {
+      display: none;
+
+    }
+
+    @include desktop-xl {
+      display: none;
+    }
+
+    @include desktop-lg {
+      display: none;
+    }    
+
     @include desktop {
-      display: block;
+      max-width: 600px;
+      left: 220px;
+    }
+    @include tablet {
+      max-width: 500px;
+      left: 130px;
+    }
+
+    @include mobile {
+      max-width: 500px;
+      left: 100px;
     }
   }
 }

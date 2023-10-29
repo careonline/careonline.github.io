@@ -47,7 +47,7 @@ weight = 1
 # footer menu
 [[menu.footer]]
 URL = "https://www.google.com/maps/place/UTSA+School+of+Data+Science/@29.4237929,-98.4985696,17z/data=!3m1!4b1!4m6!3m5!1s0x865c5959d6ecd219:0x32bcb346e162c044!8m2!3d29.4237929!4d-98.4959947!16s%2Fg%2F11k4p0b572?entry=ttu"
-name = "Visit us at San Pedro I 262, 506 Dolorosa St, San Antonio, TX 78204"
+name = "Visit CARE AI at San Pedro I 262, 506 Dolorosa St, San Antonio, TX 78204"
 weight = 1
 
 
@@ -58,12 +58,22 @@ weight = 1
 home = "Home"
 # logo
 logo = "images/long_logo.svg"
+
 # meta data
 author = "Ke Yang"
 description = "This is the website of CARE AI at UTSA."
 
 # copyright
 copyright = "&copy; 2023. All Rights Reserved"
+
+# footer menu
+footertext = "Visit CARE AI at San Pedro I 262"
+
+footeraddr = "506 Dolorosa St, San Antonio, TX 78204"
+
+footerURL = "https://www.google.com/maps/place/UTSA+School+of+Data+Science/@29.4237929,-98.4985696,17z/data=!3m1!4b1!4m6!3m5!1s0x865c5959d6ecd219:0x32bcb346e162c044!8m2!3d29.4237929!4d-98.4959947!16s%2Fg%2F11k4p0b572?entry=ttu"
+
+
 
 # preloader
 [params.preloader]
@@ -75,6 +85,18 @@ preloader = "" # use png, jpg, svg or gif format
 [params.cookies]
 enable = true
 expire_days = 2
+
+
+####################### bheader #######################################
+[params.bheader]
+image = "images/bheader_logo.svg"
+logourl = "https://www.utsa.edu"
+
+####################### bfooter #######################################
+[params.bfooter]
+image = "images/bfooter_logo.svg"
+logourl = "https://www.utsa.edu"
+
 
 ####################### banner #######################################
 [params.banner]

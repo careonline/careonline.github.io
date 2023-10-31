@@ -25,7 +25,7 @@
       <ul class="list-inline">
           <li class="list-inline-item"><span class="text-light">{{ .Site.Params.copyright | markdownify }} |</span> </li>
           {{ range .Site.Params.policy }}
-          <li class="list-inline-item"><a1 class="text-light" href="{{ .link | safeURL }}">{{ .name }}</a1></li>
+          <li class="list-inline-item"><a class="text-light d-block p-2" href="{{ .link | absURL }}">{{ .name }}</a></li>
           {{ end }}
       </ul>
       

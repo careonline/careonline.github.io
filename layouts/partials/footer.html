@@ -19,9 +19,18 @@
         </ul>
       </div>
     </div>
-    <div class="text-center text-light mt-4">
-      <span>{{ .Site.Params.copyright | markdownify }}</span>
+    <!-- policy -->
+    <div class="col-lg-12 text-center">
+      
+      <ul class="list-inline">
+          <li class="list-inline-item"><span class="text-light">{{ .Site.Params.copyright | markdownify }} |</span> </li>
+          {{ range .Site.Params.policy }}
+          <li class="list-inline-item"><a1 class="text-light" href="{{ .link | safeURL }}">{{ .name }}</a1></li>
+          {{ end }}
+      </ul>
+      
     </div>
+    
   </div>
 </footer>
 <!-- /footer -->

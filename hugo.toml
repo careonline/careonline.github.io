@@ -64,7 +64,7 @@ author = "Ke Yang"
 description = "This is the website of CARE AI at UTSA."
 
 # copyright
-copyright = "&copy; 2023. All Rights Reserved"
+copyright = "&copy;2023 The University of Texas at San Antonio"
 
 # footer menu
 footertext = "Visit CARE AI at San Pedro I 262"
@@ -130,4 +130,20 @@ link = "mailto:ke.yang@utsa.edu"
 [[params.social]]
 icon = "ti-github" # themify icon pack https://themify.me/themify-icons
 link = "https://github.com/careonline"
+
+############################## Footer Policy ##########################
+[[params.policy]]
+name = "Policies"
+link = "https://www.utsa.edu/policies/"
+[[params.policy]]
+name = "Web Accessibility"
+link = "https://utsa.edu/policies/accessibility"
+[[params.policy]]
+name = "Required Links"
+link = "https://utsa.edu/policies/reqlinks.html"
+[[params.policy]]
+name = "UT System"
+link = "https://utsystem.edu/"
+
+
 

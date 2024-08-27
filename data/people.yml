@@ -35,6 +35,12 @@ faculty:
   role: Faculty
   department: Computer Science
 
+- name: Yuexia Zhang
+  image: "/images/people/yuexia.jpg"
+  link: https://sites.google.com/view/yuexia-zhang/
+  role: Faculty
+  department: Management Science and Statistics
+
 student:
 - name: Sinmi Akindele
   image: "images/people/sinmi.jpg"

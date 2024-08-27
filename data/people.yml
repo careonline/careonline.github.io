@@ -71,3 +71,9 @@ student:
   link: "https://www.linkedin.com/in/saisirichittineni"
   role: Undergraduate Student Fellow
   department: Computer Science
+
+- name: Ashmit Sethi
+  image: "images/people/ashmit.jpg"
+  link: "https://www.linkedin.com/in/ashmitsethi"
+  role: High School Student Fellow
+  department: Dublin High School, Senior

@@ -59,3 +59,9 @@ student:
   link: "https://www.linkedin.com/in/jason-johnson-7296b517"
   role: Graduate Student Fellow
   department: Computer Science
+
+- name: Sai Siri Chittineni
+  image: "images/people/siri.jpeg"
+  link: "https://www.linkedin.com/in/saisirichittineni"
+  role: Undergraduate Student Fellow
+  department: Computer Science

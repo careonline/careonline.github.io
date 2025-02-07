@@ -72,6 +72,12 @@ student:
   role: Undergraduate Student Fellow
   department: Computer Science
 
+- name: Anudeep Bonagiri
+  image: "images/people/anudeep.jpeg"
+  link: "https://www.linkedin.com/in/anudeep-bonagiri/"
+  role: High School Student Fellow
+  department: Tom C Clark High School and Northwest Vista College, Senior
+
 - name: Ashmit Sethi
   image: "images/people/ashmit.jpg"
   link: "https://www.linkedin.com/in/ashmitsethi"

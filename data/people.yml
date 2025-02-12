@@ -60,6 +60,12 @@ student:
   role: Graduate Student Fellow
   department: Computer Science
 
+- name: Samyuktha Arcot Megha Raj
+  image: "images/people/samyu.jpg"
+  link: "https://www.linkedin.com/in/arcot-samyuktha"
+  role: Graduate Student Fellow
+  department: Computer Science  
+
 - name: Jason Johnson
   image: "images/people/jason.jpg"
   link: "https://www.linkedin.com/in/jason-johnson-7296b517"

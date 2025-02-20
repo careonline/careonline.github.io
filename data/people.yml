@@ -60,6 +60,12 @@ student:
   role: Graduate Student Fellow
   department: Computer Science
 
+- name: Kevin Mathew Maran
+  image: "images/people/kevin.jpg"
+  link: "https://www.linkedin.com/in/kevin-mathew-m"
+  role: Graduate Student Fellow
+  department: Computer Science 
+
 - name: Samyuktha Arcot Megha Raj
   image: "images/people/samyu.jpg"
   link: "https://www.linkedin.com/in/arcot-samyuktha"

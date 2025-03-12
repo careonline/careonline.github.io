@@ -17,6 +17,24 @@ faculty:
   role: Faculty
   department: Information Systems and Cyber Security
 
+- name: Kevin Hirschi
+  image: "/images/people/kevin_f.jpg"
+  link: https://education.utsa.edu/faculty/profiles/hirschi-kevin.html
+  role: Faculty
+  department: Bicultural-Bilingual Studies
+
+- name: Yuexia Zhang
+  image: "/images/people/yuexia.jpg"
+  link: https://sites.google.com/view/yuexia-zhang/
+  role: Faculty
+  department: Management Science and Statistics
+
+- name: Zijie Zhang
+  image: "/images/people/zijie.jpeg"
+  link: https://sciences.utsa.edu/faculty/profiles/zhang-zijie.html
+  role: Faculty
+  department: Computer Science
+
 - name: Maryam Tabar 
   image: "/images/people/maryam.jpeg"
   link: https://sciences.utsa.edu/faculty/profiles/tabar-maryam.html
@@ -29,17 +47,7 @@ faculty:
   role: Faculty
   department: Management Science and Statistics
 
-- name: Zijie Zhang
-  image: "/images/people/zijie.jpeg"
-  link: https://sciences.utsa.edu/faculty/profiles/zhang-zijie.html
-  role: Faculty
-  department: Computer Science
 
-- name: Yuexia Zhang
-  image: "/images/people/yuexia.jpg"
-  link: https://sites.google.com/view/yuexia-zhang/
-  role: Faculty
-  department: Management Science and Statistics
 
 student:
 - name: Sinmi Akindele

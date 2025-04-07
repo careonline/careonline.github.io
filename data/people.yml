@@ -98,8 +98,8 @@ student:
   role: High School Student Fellow
   department: Tom C Clark High School and Northwest Vista College, Senior
 
-- name: Ashmit Sethi
-  image: "images/people/ashmit.jpg"
-  link: "https://www.linkedin.com/in/ashmitsethi"
-  role: High School Student Fellow
-  department: Dublin High School, Senior
+# - name: Ashmit Sethi
+#   image: "images/people/ashmit.jpg"
+#   link: "https://www.linkedin.com/in/ashmitsethi"
+#   role: High School Student Fellow
+#   department: Dublin High School, Senior

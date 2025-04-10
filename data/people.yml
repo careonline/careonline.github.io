@@ -96,7 +96,13 @@ student:
   image: "images/people/anudeep.jpeg"
   link: "https://www.linkedin.com/in/anudeep-bonagiri/"
   role: High School Student Fellow
-  department: Tom C Clark High School and Northwest Vista College, Senior
+  department: Tom C Clark High School and Northwest Vista College
+
+- name: Shreyansh Rath
+  image: "images/people/shre.jpeg"
+  link: "https://www.linkedin.com/in/shreyansh-rath-678b18356?trk=contact-info"
+  role: High School Student Fellow
+  department: Heritage High School
 
 # - name: Ashmit Sethi
 #   image: "images/people/ashmit.jpg"

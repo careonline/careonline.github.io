@@ -5,6 +5,12 @@ faculty:
   role: Founding Faculty
   department: Computer Science
 
+- name: Anthony Rios
+  image: "/images/people/anthony.png"
+  link: https://business.utsa.edu/faculty/profiles/rios-anthony.html
+  role: Faculty
+  department: Information Systems and Cyber Security
+
 - name: Carolina Vivas-Valencia
   image: "/images/people/carolina.jpeg"
   link: https://heallaboratory.com/
@@ -68,7 +74,7 @@ student:
   role: Graduate Student Fellow
   department: Computer Science
 
-- name: Nadia Masoumi
+- name: Fatemeh Sadat Masoumi
   image: "images/people/nadia.png"
   link: "https://www.linkedin.com/in/fatemeh-sadat-masoumi?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
   role: Graduate Student Fellow

@@ -68,6 +68,18 @@ student:
   role: Graduate Student Fellow
   department: Computer Science
 
+- name: Nadia Masoumi
+  image: "images/people/nadia.png"
+  link: "https://www.linkedin.com/in/fatemeh-sadat-masoumi?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+  role: Graduate Student Fellow
+  department: Computer Science
+
+- name: Abu Noman Md Sakib 
+  image: "images/people/sakib.jpg"
+  link: "https://anmspro.github.io/"
+  role: Graduate Student Fellow
+  department: Computer Science
+
 - name: Kevin Mathew Maran
   image: "images/people/kevin.jpg"
   link: "https://www.linkedin.com/in/kevin-mathew-m"

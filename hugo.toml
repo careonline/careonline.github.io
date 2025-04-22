@@ -101,7 +101,7 @@ logourl = "https://www.utsa.edu"
 ####################### banner #######################################
 [params.banner]
 bgImage = "images/banner/web_banner.svg"
-title = "We aim at promoting AI responsibility."
+title = "Our goal is to promote trustworthy and responsible AI and ML."
 image = "images/banner/web_focus.svg"
 
 
@@ -119,7 +119,7 @@ title = "Team"
 enable = true
 image = "images/i_ad.svg"
 title = "This could be you!"
-description = "We are always looking for people who are passionate about advancing AI responsibility. You can get in touch with us by using one of the following methods."
+description = "We are always looking for people who are passionate about advancing AI and ML. You can get in touch with us by using one of the following methods."
 contactlink = "mailto:ke.yang@utsa.edu"
 formlink = "https://forms.gle/S7faZMDaysXiu9kJA"
 

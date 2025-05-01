@@ -92,6 +92,12 @@ student:
   role: Graduate Student Fellow
   department: Computer Science 
 
+- name: Naveen John
+  image: "images/people/naveen.png"
+  link: "https://www.linkedin.com/in/nvnj"
+  role: Graduate Student Fellow
+  department: Computer Science
+
 - name: Samyuktha Arcot Megha Raj
   image: "images/people/samyu.jpg"
   link: "https://www.linkedin.com/in/arcot-samyuktha"

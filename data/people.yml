@@ -104,15 +104,15 @@ student:
   role: Graduate Student Fellow
   department: Computer Science  
 
-- name: Jason Johnson
-  image: "images/people/jason.jpg"
-  link: "https://www.linkedin.com/in/jason-johnson-7296b517"
-  role: Graduate Student Fellow
-  department: Computer Science
-
 - name: Sai Siri Chittineni
   image: "images/people/siri.jpeg"
   link: "https://www.linkedin.com/in/saisirichittineni"
+  role: Undergraduate Student Fellow
+  department: Computer Science
+
+- name: Blessy Kalluri
+  image: "images/people/blessy.jpg"
+  link: "https://www.linkedin.com/in/blessy-kalluri-0a162a291/"
   role: Undergraduate Student Fellow
   department: Computer Science
 
@@ -128,6 +128,11 @@ student:
   role: High School Student Fellow
   department: Heritage High School
 
+# - name: Jason Johnson
+#   image: "images/people/jason.jpg"
+#   link: "https://www.linkedin.com/in/jason-johnson-7296b517"
+#   role: Graduate Student Fellow
+#   department: Computer Science
 # - name: Ashmit Sethi
 #   image: "images/people/ashmit.jpg"
 #   link: "https://www.linkedin.com/in/ashmitsethi"

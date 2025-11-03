@@ -104,6 +104,18 @@ student:
   role: Graduate Student Fellow
   department: Computer Science  
 
+- name: Anudeep Bonagiri
+  image: "images/people/anudeep.jpeg"
+  link: "https://www.linkedin.com/in/anudeep-bonagiri/"
+  role: Undergraduate Student Fellow
+  department: Computer Science
+
+- name: Jonathan Gladwin Prabakar
+  image: "images/people/jonathan.jpg"
+  link: "https://www.linkedin.com/in/jonathan-gladwin-p-6aa5aa30a/"
+  role: Undergraduate Student Fellow
+  department: Computer Science
+
 - name: Sai Siri Chittineni
   image: "images/people/siri.jpeg"
   link: "https://www.linkedin.com/in/saisirichittineni"
@@ -115,13 +127,7 @@ student:
   link: "https://www.linkedin.com/in/blessy-kalluri-0a162a291/"
   role: Undergraduate Student Fellow
   department: Computer Science
-
-- name: Anudeep Bonagiri
-  image: "images/people/anudeep.jpeg"
-  link: "https://www.linkedin.com/in/anudeep-bonagiri/"
-  role: High School Student Fellow
-  department: Tom C Clark High School and Northwest Vista College
-
+  
 - name: Shreyansh Rath
   image: "images/people/shre.jpeg"
   link: "https://www.linkedin.com/in/shreyansh-rath-678b18356?trk=contact-info"

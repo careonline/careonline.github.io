@@ -134,6 +134,14 @@ student:
   role: High School Student Fellow
   department: Heritage High School
 
+- name: Steawin Igwin Fernando
+  image: "images/people/steawin.jpg"
+  link: "https://www.linkedin.com/in/steawin-fernando-959a07306/"
+  role: High School Student Fellow
+  department: BASIS San Antonio, Shavano Campus
+
+
+
 # - name: Jason Johnson
 #   image: "images/people/jason.jpg"
 #   link: "https://www.linkedin.com/in/jason-johnson-7296b517"

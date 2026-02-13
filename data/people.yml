@@ -127,6 +127,12 @@ student:
   link: "https://www.linkedin.com/in/blessy-kalluri-0a162a291/"
   role: Undergraduate Student Fellow
   department: Computer Science
+
+- name: Muhammad Baibars Zain Ul Abideen
+  image: "images/people/muhammad.png"
+  link: "https://www.linkedin.com/in/mbaibarszainulabideen/"
+  role: Undergraduate Student Fellow
+  department: Computer Science
   
 - name: Shreyansh Rath
   image: "images/people/shre.jpeg"

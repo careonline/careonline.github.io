@@ -118,7 +118,7 @@ student:
 
 - name: Bhargav Ratala
   image: "images/people/ratala.png"
-  link: ""
+  link: "https://www.linkedin.com/in/bhargav-ratala/"
   role: Undergraduate Student Fellow
   department: Computer Science
 

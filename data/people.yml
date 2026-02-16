@@ -98,12 +98,6 @@ student:
   role: Graduate Student Fellow
   department: Computer Science
 
-- name: Samyuktha Arcot Megha Raj
-  image: "images/people/samyu.jpg"
-  link: "https://www.linkedin.com/in/arcot-samyuktha"
-  role: Graduate Student Fellow
-  department: Computer Science  
-
 - name: Anudeep Bonagiri
   image: "images/people/anudeep.jpeg"
   link: "https://www.linkedin.com/in/anudeep-bonagiri/"
@@ -116,15 +110,15 @@ student:
   role: Undergraduate Student Fellow
   department: Computer Science
 
-- name: Sai Siri Chittineni
-  image: "images/people/siri.jpeg"
-  link: "https://www.linkedin.com/in/saisirichittineni"
+- name: Victoria Johnson
+  image: "images/people/victoria.jpeg"
+  link: "www.linkedin.com/in/victoriamarie-johnson"
   role: Undergraduate Student Fellow
   department: Computer Science
 
-- name: Blessy Kalluri
-  image: "images/people/blessy.jpg"
-  link: "https://www.linkedin.com/in/blessy-kalluri-0a162a291/"
+- name: Bhargav Ratala
+  image: "images/people/ratala.png"
+  link: ""
   role: Undergraduate Student Fellow
   department: Computer Science
 
@@ -147,12 +141,33 @@ student:
   department: BASIS San Antonio, Shavano Campus
 
 
+alumni:
+- name: Jason Johnson
+  image: "images/people/jason.jpg"
+  link: "https://www.linkedin.com/in/jason-johnson-7296b517"
+  role: Graduate Student Fellow
+  department: Computer Science
 
-# - name: Jason Johnson
-#   image: "images/people/jason.jpg"
-#   link: "https://www.linkedin.com/in/jason-johnson-7296b517"
-#   role: Graduate Student Fellow
-#   department: Computer Science
+- name: Samyuktha Arcot Megha Raj
+  image: "images/people/samyu.jpg"
+  link: "https://www.linkedin.com/in/arcot-samyuktha"
+  role: Graduate Student Fellow
+  department: Computer Science  
+
+- name: Sai Siri Chittineni
+  image: "images/people/siri.jpeg"
+  link: "https://www.linkedin.com/in/saisirichittineni"
+  role: Undergraduate Student Fellow
+  department: Computer Science
+
+- name: Blessy Kalluri
+  image: "images/people/blessy.jpg"
+  link: "https://www.linkedin.com/in/blessy-kalluri-0a162a291/"
+  role: Undergraduate Student Fellow
+  department: Computer Science
+
+
+
 # - name: Ashmit Sethi
 #   image: "images/people/ashmit.jpg"
 #   link: "https://www.linkedin.com/in/ashmitsethi"

@@ -94,6 +94,29 @@
           </div>
           {{ end }}
         </div>
+        <div class="row shadow bg-white p-5">
+          <div class="col-md-12 text-center text-md-left">
+            <h2 class="mt-0">{{ Alumni | markdownify }}</h3>
+          </div>
+          <div class="col-md-12 text-center text-md-left"><hspan class="mt-0">Placeholder</hspan></div>
+          
+          {{ range $index, $elemen:= .Site.Data.people.alumni }}
+          <div class="col-md-4 text-center text-md-center mb-4 mb-lg-0">
+            <div class="table-responsive">
+            <table class="mx-auto w-auto">
+              <tr><td>  
+                <a href="{{ .link | absURL }}">
+                  <img src="{{ .image | relURL }}" class="mr-4" width="170" height="170">
+                </a>
+              </td></tr>
+              <tr><td> <h4 class="mt-0">{{ .name | markdownify }}</h4> </td></tr>
+              <tr><td> <prole class="mt-0">{{ .role | markdownify }}</prole> </td></tr>
+              <tr><td> <prole class="mt-0">{{ .department | markdownify }}</prole> </td></tr>
+            </table>
+            </div>
+          </div>
+          {{ end }}
+        </div>
       </div>
     </div>
   </div>

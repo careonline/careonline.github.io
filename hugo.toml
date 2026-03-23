@@ -101,7 +101,7 @@ logourl = "https://www.utsa.edu"
 ####################### banner #######################################
 [params.banner]
 bgImage = "images/banner/web_banner.svg"
-title = "We develop data-driven solutions for trustworthy, responsible and explainable Artificial Intelligence (AI) and Machine Learning (ML) applications in areas such as medicine, healthcare, bioinformatics, finance and education."
+title = "Data-driven solutions for responsible AI and ML in specific domains"
 image = "images/banner/web_focus.svg"
 
 

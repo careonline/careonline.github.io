@@ -116,6 +116,12 @@ student:
   role: Undergraduate Student Fellow
   department: Computer Science
 
+- name: Anh Doan
+  image: "images/people/anh.jpg"
+  link: "https://www.linkedin.com/in/minh-anh-doan-600b94291"
+  role: Undergraduate Student Fellow
+  department: Computer Science
+
 - name: Bhargav Ratala
   image: "images/people/ratala.png"
   link: "https://www.linkedin.com/in/bhargav-ratala/"
@@ -127,6 +133,7 @@ student:
   link: "https://www.linkedin.com/in/mbaibarszainulabideen/"
   role: Undergraduate Student Fellow
   department: Computer Science
+
   
 - name: Shreyansh Rath
   image: "images/people/shre.jpeg"
